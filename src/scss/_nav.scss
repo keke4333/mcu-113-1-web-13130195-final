@@ -1,0 +1,44 @@
+nav {
+  position: fixed; // 設定成絕對定位
+  width: 100%;
+  height: 90px;
+  padding-inline: 9vw;
+  display: flex; // 設定布局
+  justify-content: space-between; // 不知道該怎麼註解
+  line-height: 90px; // 讓字上面留白
+
+  .nav-logo {
+    font-size: 24px; // 設定字的大小
+    font-weight: 600; // 設定字的粗細
+    color: rgb(29, 159, 171); // 設定字的顏色
+  }
+
+  ul {
+    list-style: none; // 除掉連結字前面會出現的點點
+    display: flex;
+
+    .nav-link {
+      color: var(--text-color);
+      text-decoration: none; // 除掉連結字下面會出現的線
+      font-weight: 600;
+      padding-inline: 15px; // 設定行的前後距離
+      margin-inline: 20px; // 控制行的前後距離
+    }
+
+    .active-link {
+      position: relative;
+      color: rgb(112, 90, 224);
+
+      &::after {
+        content: ""; // ?
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        background-color: rgb(112, 90, 224);
+        left: 50%;
+        bottom: -15px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
