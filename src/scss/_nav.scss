@@ -10,7 +10,7 @@ nav {
   .nav-logo {
     font-size: 24px; // 設定字的大小
     font-weight: 600; // 設定字的粗細
-    color: rgb(29, 159, 171); // 設定字的顏色
+    color: var(--logo-color); // 設定字的顏色
   }
 
   ul {
@@ -27,14 +27,14 @@ nav {
 
     .active-link {
       position: relative;
-      color: rgb(112, 90, 224);
+      color: var(--purple-color);
 
       &::after {
         content: ""; // ?
         position: absolute;
         width: 5px;
         height: 5px;
-        background-color: rgb(112, 90, 224);
+        background-color: var(--purple-color);
         left: 50%;
         bottom: -15px;
         border-radius: 50%;

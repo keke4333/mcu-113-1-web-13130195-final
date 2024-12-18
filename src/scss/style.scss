@@ -4,11 +4,18 @@
 @import "./about";
 
 :root {
-  --text-color: rab(68, 68, 68);
+  --text-color: rgb(68, 68, 68);
+  --logo-color: rgb(29, 153, 171);
+  --body-color: rgb(250, 250, 250);
+
+  --btn1-color: rgb(170, 142, 18);
+
+  --white-color: #efefef;
+  --purple-color: rgb(112, 90, 224);
 }
 
 body {
-  background-color: rgb(250, 250, 250); // 設定整個背景顏色
+  background-color: var(--body-color); // 設定整個背景顏色
 
   .container {
     width: 100%;

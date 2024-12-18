@@ -7,8 +7,8 @@
   justify-content: center;
 
   .tag > span {
-    background-color: rgb(170, 142, 18);
-    color: #efefef;
+    background-color: var(--btn1-color);
+    color: var(--white-color);
     padding: 3px 6px;
     font-size: 12px;
     border-radius: 5px;
@@ -31,8 +31,8 @@
     gap: 20px;
 
     > .purple-btn {
-      background-color: rgb(112, 90, 224);
-      color: #efefef;
+      background-color: var(--purple-color);
+      color: var(--white-color);
     }
   }
   .icons {
