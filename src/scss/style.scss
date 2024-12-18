@@ -1,6 +1,7 @@
 @import "./nav";
 @import "./btn.scss";
 @import "./home";
+@import "./about";
 
 :root {
   --text-color: rab(68, 68, 68);
@@ -25,10 +26,15 @@ body {
 
   .section {
     padding-block: 6em;
+
+    .top-header {
+      text-align: center;
+      margin-bottom: 5em;
+    }
   }
 
   .home-box {
-    min-height: 700px;
+    min-height: 800px;
     display: flex;
     padding-block: 6em;
     height: 700px;
