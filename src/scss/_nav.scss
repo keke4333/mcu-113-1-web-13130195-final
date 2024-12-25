@@ -6,6 +6,7 @@ nav {
   display: flex; // 設定布局
   justify-content: space-between; // 不知道該怎麼註解
   line-height: 90px; // 讓字上面留白
+  background-color: var(--body-color);
 
   .nav-logo {
     font-size: 24px; // 設定字的大小
