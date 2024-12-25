@@ -1,0 +1,11 @@
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 50px;
+
+  .info,
+  .form {
+    width: 50%;
+  }
+}
