@@ -8,4 +8,27 @@
   .form {
     width: 50%;
   }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 30px;
+    width: 100%;
+    height: 315px;
+    background-color: var(--skyblue-color);
+    color: var(--white-color);
+    border-radius: 10px;
+    gap: 10px;
+    box-shadow: 1px 8px 10px 2px var(--shadow-color);
+    align-items: center;
+
+    > h2 {
+      margin-bottom: 20px;
+    }
+
+    i {
+      font-size: 18px;
+    }
+  }
 }
