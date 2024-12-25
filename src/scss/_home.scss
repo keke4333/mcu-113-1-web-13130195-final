@@ -33,6 +33,10 @@
     > .purple-btn {
       background-color: var(--purple-color);
       color: var(--white-color);
+
+      &:hover {
+        background-color: rgb(40, 91, 212);
+      }
     }
   }
   .icons {
