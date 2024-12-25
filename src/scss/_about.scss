@@ -49,6 +49,9 @@
 
       .school {
         width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
 
         .school-item {
           font-size: 17px;
@@ -74,6 +77,9 @@
 
       .date {
         width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
 
         .date-item {
           font-size: 17px;
