@@ -1,0 +1,33 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 30px;
+  padding-block: 40px 60px;
+
+  .footer-menu {
+    display: flex;
+
+    .menu-item {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: var(--text-color);
+        font-weight: 500;
+        margin-inline: 20px;
+      }
+    }
+  }
+
+  .footer-icon {
+    display: flex;
+    gap: 30px;
+  }
+
+  .bootom-footer {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}

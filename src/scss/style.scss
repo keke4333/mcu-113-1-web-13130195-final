@@ -4,6 +4,7 @@
 @import "./about";
 @import "./skill";
 @import "./contact";
+@import "./footer";
 
 :root {
   --text-color: rgb(68, 68, 68);
@@ -59,4 +60,14 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0px 2px 5px 0px rgb(0, 0, 0, 0.25);
+  width: 40px;
+  height: 40px;
 }
